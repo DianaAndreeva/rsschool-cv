@@ -26,3 +26,10 @@ const capitalize = (string) => {
 * **Obtained qualification: Bachalor's Degree**
 * **Field of Study: Education/Pedagogy**
 * **Specialization: Language and Literature (English)**
+
+#### Languages:
+* Ukrainian: native
+* Russian: Proficiency
+* English: C1
+* German: A1
+* Hungarian: A2
