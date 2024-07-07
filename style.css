@@ -1,3 +1,32 @@
 * {
-    margin: 0;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    display: block;
+}
+
+.header {
+    height: 50px;
+    background-color: pink;
+}
+
+.nav-list {
+    display: flex;
+    padding-top: 11px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.li-info {
+    font-family: 'Wittgenstein', sans-serif;
+    font-weight: 600;
 }
