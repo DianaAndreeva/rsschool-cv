@@ -159,3 +159,34 @@ h1 {
     font-size: 17px; 
     line-height: 2.2;
 }
+
+/* FOOTER */
+
+footer {
+    margin: 0 130px;
+    background-color: pink;
+    height: 50px;
+}
+
+.footer {
+    padding: 0;
+    display: flex;
+    padding-top: 20px;
+}
+
+.github {
+    color: black;
+    font-family: 'Wittgenstein', sans-serif;
+    color: white;
+
+}
+
+.date {
+    font-family: 'Wittgenstein', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.rs-logo {
+    width: 100px;
+}
