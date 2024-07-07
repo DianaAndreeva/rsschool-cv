@@ -7,18 +7,18 @@ body {
     display: block;
 }
 
+/* header */
+
 .header {
     height: 50px;
     background-color: pink;
+    padding: 0 180px;
 }
 
 .nav-list {
     display: flex;
     padding-top: 11px;
-}
-
-li {
-    list-style: none;
+    padding-left: 280px;
 }
 
 a {
@@ -29,4 +29,133 @@ a {
 .li-info {
     font-family: 'Wittgenstein', sans-serif;
     font-weight: 600;
+    list-style: none;
+}
+
+/* main */
+
+main {
+    margin: 0 130px;
+    display: flex;
+}
+
+/* left part */
+
+.left-part {
+    background-color: pink;
+    width: 400px;
+    margin: 0;
+    height: 1532px;
+}
+
+.photo-me {
+    height: 500px;
+    display: flex;
+    /* padding-top: 10px; */
+}
+
+/* section-1 left part CONTACTS */
+
+.divide-section-left {
+    background-color:cadetblue;
+    height: 50px;
+}
+
+.contacts-left {
+    font-family: 'Wittgenstein', sans-serif; 
+    color: white;
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-bottom: 60px;
+    font-size: 17px;
+}
+
+/* section-2 left part SOFT SKILLS */
+
+.soft-skills {
+    font-family: 'Wittgenstein', sans-serif;
+    color: white;
+    padding: 60px 70px;
+    font-size: 17px; 
+    line-height: 2.2;
+}
+
+/* section-3 left part LANGUAGES */
+
+.languages {
+    font-family: 'Wittgenstein', sans-serif;
+    color: white;
+    padding: 69px 60px;
+    font-size: 17px; 
+    line-height: 2.2;
+}
+
+/* right part */
+
+.right-part {
+    background-color:cadetblue;
+    width: 100%;
+}
+
+/* section-1 right */
+
+.section-right-one {
+    padding: 160px 120px;
+    height: 180px;
+}
+
+h1 {
+    font-family: 'Wittgenstein', sans-serif; 
+    color: white;
+    font-size: 60px;
+    line-height: 1.2;
+}
+
+.name-text {
+    font-family: 'Wittgenstein', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.divide-section {
+    background-color:pink;
+    height: 50px;
+}
+
+.text-divide-section {
+    font-family: 'Wittgenstein', sans-serif; 
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 6px;
+    padding-left: 10px;
+}
+
+/* section-2 right ABOUT ME */
+
+.text-about-me {
+    font-family: 'Wittgenstein', sans-serif;
+    color: white;
+    padding: 60px 60px;
+    font-size: 17px;  
+}
+
+/* section-3 right SKILLS */
+
+.skills {
+    font-family: 'Wittgenstein', sans-serif;
+    color: white;
+    padding: 60px 70px;
+    font-size: 17px; 
+    line-height: 2.2;
+}
+
+/* section-4 right DEGREE */
+
+.degree {
+    font-family: 'Wittgenstein', sans-serif;
+    color: white;
+    padding: 60px 60px;
+    font-size: 17px; 
+    line-height: 2.2;
 }
